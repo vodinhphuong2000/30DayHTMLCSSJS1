@@ -1,0 +1,176 @@
+            @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+             :root {
+                --primary-color: #4daf54;
+            }
+            
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            
+            body {
+                height: 100vh;
+                background: linear-gradient(to right, #4daf54, #3d8880);
+                font-family: 'Poppins', sans-serif;
+            }
+            
+            .card {
+                margin: 120px auto;
+                width: 320px;
+                height: 400px;
+                background-color: #272d40;
+                border-radius: 15px;
+                padding: 20px;
+                color: white;
+                position: relative;
+            }
+            
+            .card_cart {
+                font-size: 25px;
+                position: absolute;
+                left: 20px;
+                top: 20px;
+                cursor: pointer;
+            }
+            
+            .card_heart {
+                font-size: 25px;
+                position: absolute;
+                left: 20px;
+                top: 20px;
+                cursor: pointer;
+            }
+            
+            .card_cart {
+                left: unset;
+                right: 20px;
+            }
+            
+            .card_img {
+                width: 90%;
+                transition: 0.5s;
+            }
+            
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                object-position: center;
+            }
+            
+            .card_title,
+            .card_price {
+                font-size: 25px;
+                font-weight: bold;
+                text-align: center;
+                transition: 0.5s;
+            }
+            
+            .card_title {
+                color: var(--primary-color);
+            }
+            
+            .card_size,
+            .card_color {
+                display: flex;
+                align-items: center;
+                margin-bottom: 10px;
+            }
+            
+            .card_size span {
+                padding: 1px 10px;
+                background-color: #dadada;
+                color: black;
+                border-radius: 5px;
+                margin: 0 3px;
+                cursor: pointer;
+            }
+            
+            .card_color span {
+                width: 12px;
+                height: 12px;
+                border-radius: 50%;
+                margin: 0 20px;
+                cursor: pointer;
+            }
+            
+            .card_color--green {
+                background-color: green;
+            }
+            
+            .card_color--red {
+                background-color: red;
+            }
+            
+            .card_color--black {
+                background-color: black;
+            }
+            
+            .card_action button {
+                background: var(--primary-color);
+                border: none;
+                outline: none;
+                color: white;
+                padding: 8px 15px;
+                border-radius: 5px;
+                margin: 0 3px;
+                font-weight: bold;
+                cursor: pointer;
+                transition: 0.25s;
+            }
+            
+            .card_action button:hover {
+                transform: scale(0.9);
+                /* hiệu ứng thu nhỏ lại khi click vào */
+            }
+            
+            .card:hover .card_img {
+                transform: translateY(-90px) rotate(-20deg);
+            }
+            
+            .card:hover .card_title {
+                transform: translate(-38px, -72px)
+            }
+            
+            .card:hover .card_price {
+                transform: translate(-117px, -72px)
+                /* hiệu ứng khi click màn hình */
+            }
+            
+            .card_size {
+                margin-top: 150px;
+            }
+            
+            .card_size,
+            .card_color,
+            .card_action {
+                visibility: hidden;
+                /* ẩn */
+                opacity: 0;
+                /* độ mờ */
+                transition: 0.5;
+            }
+            
+            .card:hover .card_size,
+            .card:hover .card_color,
+            .card:hover .card_action {
+                visibility: visible;
+                /* hiện */
+                opacity: 100;
+                transition: delay(0.4s);
+            }
+            
+            .card:hover .card_size {
+                margin-top: -30px;
+            }
+            
+            .card_size span:hover {
+                transform: scale(0.9);
+                /* hiệu ứng thu nhỏ lại khi click vào */
+            }
+            
+            .card_color span:hover {
+                transform: scale(2);
+                /* hiệu ứng thu nhỏ lại hoặc phóng to ra khi click vào */
+            }
