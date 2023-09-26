@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+.flex{
+    display: flex;
+
+}
+.header{
+    display: flex;
+    width: 100%;
+    justify-content:space-around;
+    
+}
+.menu{
+padding: 10px 0px;
+display: flex;
+align-items: center;
+justify-content:center;
+height: 90px;
+
+}
+
+.menu li {
+    list-style: none ;
+    
+}
+.menu li a{
+    padding-right: 15px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+.logo img{
+    padding: 10px 0;
+    width: 50%;
+   
+}
+.logo{
+    margin-left: -100px
+}
+.img-responsive{
+    max-width: 100%;
+}
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search button{
+    color: white;
+    background: black;
+    font-size: 14px;
+    border-radius: 3px;
+}
+.search input{
+    font-size: 14px;
+}
+.container{
+    display: flex;
+    margin-top: -4px;
+  /* padding-bottom:-100px ; */
+    
+    
+}
+.container-left{
+    /* margin-right: 100px; */
+    width: 100%;
+    background: gray;
+}
+
+.list{
+    text-align: center;
+    justify-content: center ;
+    background: orangered;
+}
+.list h2{
+    font-size: 30px;
+    color: white;
+    
+}
+.list-title ul{
+    
+    margin: 20px;
+
+}
+.list-title li{
+    list-style:circle;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.best-seller{
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+    color: aqua;
+}
+.ip13{
+    margin: 0px 20px 0px 20px;
+    border:2px solid rgba(128, 128, 128, 0.56);
+    box-shadow: 3px 3px 2px 2px rgba(128, 128, 128, 0.56) ; 
+    border-radius: 5px;   
+
+}
+.ip13 img{
+    margin: 10px;   
+}
+.content h3{
+    font-size: 25px;
+    margin: 10px 10px 10px 0px;
+}
+.content p{
+    font-size: 20px;
+    margin: 0px 0px 10px 0px;
+}
+.Title-sale{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0px 40px 0px;
+}
+.Product-sale{
+    display: flex;
+    margin-bottom: 30px
+}
+.img-product img{
+    padding: 0px 35px;
+   
+}
+.name-product h4{
+    display: flex;
+    justify-content: center;
+    /* text-align: center;
+    align-items: center; */
+}
+.name-product p{
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+.name-product p del{
+    color: gray;
+}
+.sale p{
+    color: red;
+}
+.footer{
+    background: rgb(51, 43, 43);
+    color: white;
+    margin-top: 0px;
+    padding: 20px;
+    text-align: center;
+}
+.footer-font p{
+    padding: 0px 0px 10px 0px;
+}
