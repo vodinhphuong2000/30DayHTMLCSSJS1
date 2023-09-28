@@ -1,0 +1,94 @@
+Chương 1: Javascript căn bản
+1. Sử dụng console: https://youtu.be/JGfp6Zadw3g
+2. Var, let, const, hoisting, scope: https://youtu.be/vqlnx56NmeM
+3. Kiểu dữ liệu tham trị, tham chiếu: https://youtu.be/3PwGW1eYdgQ
+4. Toán tử: https://youtu.be/z1Y-TdzY33w
+5. Câu lệnh điều kiện: https://youtu.be/u6CB80SiJZk
+6. Vòng lặp: https://youtu.be/_1T619iFjYA
+7. Function: https://youtu.be/eI6Yvu55ENY
+8. Object method, this và function nâng cao: https://youtu.be/lWB8gzg61SI
+9. Call, Apply, Bind: https://youtu.be/TVfHn0YRfnA
+10. Number và method: https://youtu.be/CIDoKwbvsfQ
+11. String và method: https://youtu.be/nBR5VAyyfzk
+12. Array và method: https://youtu.be/AATTIFlvJ6I
+13. Object và method: https://youtu.be/1FQUKJsbrRQ
+14. Date time: https://youtu.be/dZkEMB0iNKY
+15. Object window: https://youtu.be/VbgtXBokp-A
+16. Alert, Confirm, Prompt: https://youtu.be/38sxdl6xDa4
+17. Bài tập: https://github.com/dtdgroup/Javascript/tree/master/0.%20Bai%20tap/Can%20ban?fbclid=IwAR3oHtrY8kctMP-jiYBJ-gdJ5-zCxf9BDthOtkjnfrb5e95PwUgcXej6-Ag
+
+Chương 2: DOM và sự kiện
+18. DOM là gì: https://youtu.be/KYE5WjaqCIQ
+19. Select 1 element: https://youtu.be/JxhhMvrNP-o
+20. Select nhiều element: https://youtu.be/t9EdF_Ntud0
+21. Sơ lược các phương thức DOM hay dùng: https://youtu.be/LCLo-RgzzR4
+22. Tạo element: https://youtu.be/iTBpDVRLjtg
+23. Xóa và thay thế Element: https://youtu.be/4_tovaoqI2w
+24. Mouse Event: https://youtu.be/U5F_2e6C4YM
+25. Keyboard Event: https://youtu.be/KYl0NeE2O5s
+26. Localstorage và Cookie: https://youtu.be/8fTc5lqel8k
+
+Chương 3: DOM project
+27. Project Tab: https://youtu.be/Lscg3DKYykE
+28. Project tính lãi suất vay: https://youtu.be/3TJGVUqqTaw
+29. Project game kéo búa bao: https://youtu.be/1mgldexJa4U
+30. Project Todo: https://youtu.be/PGk621PkfLI
+
+Chương 4: Xử lý lỗi và Regex
+31. Try catch: https://youtu.be/paApc8TUFfc
+32. Custom Error: https://youtu.be/Wl7HqJws-54
+33. Regex Evaluation Funtions: https://youtu.be/uAlWgBXiTow
+34. Regex Metacharacter Symbols: https://youtu.be/ojwxJLiz9bY
+35. Regex Character Sets and Quantifiers: https://youtu.be/ZeEV_nex7-Y
+36. Regex Shorthand character classes: https://youtu.be/B4nuAqKV0NI
+37. Project validate form: https://youtu.be/Nd81Lz23Jrg
+
+Chương 5: OOP Javascript
+38. Property flags and descriptors Object: https://youtu.be/aravUQQrFMA
+39. Property getters and setters Object: https://youtu.be/3ZHABbC4IG0
+40. Prototypal inheritance: https://youtu.be/1aQyoafjM_c
+41. F.prototype: https://youtu.be/pi9BVguF00Y
+42. Native prototypes: https://youtu.be/EzjZRZEfYNQ
+43. Prototype methods, objects without proto: https://youtu.be/dj4wXTwksU0
+44. Cú pháp class căn bản: https://youtu.be/u3ogoqzx0o0
+45. Class kế thừa: https://youtu.be/n3IEIIaBEmo
+46. Thuộc tính và phương thức static: https://youtu.be/bNO4jWRAAIw
+47. Thuộc tính phương thức private: https://youtu.be/TS2NiHWQ1FE
+48. Kiểm tra class với instanceof: https://youtu.be/swOWUxDeSuM
+49. Bài tập: https://github.com/dtdgroup/Javascript/tree/master/0.%20Bai%20tap/OOP%20Javascript?fbclid=IwAR2XsAxEycFYr2prshC-nLNFynVO2NXgVQDy4HrS8lcm5hBrn9UKPDi1WMg
+
+Chương 6: OOP Project
+50. Project quản lý sinh viên (Prototype & Class): https://youtu.be/IWTgdGtal2E
+
+Chương 7: Bất đồng bộ
+51. Bất đồng bộ là gì? Callback?: https://youtu.be/XZaNnZv0lyQ
+52. Promise: https://youtu.be/CMYYC_pa7rU
+53. Async Await: https://youtu.be/iISsNBahwB8
+
+Chương 8: JSON, Ajax và Fetch API
+54. Json, Ajax & Fetch: https://youtu.be/aLk9IKrBukc
+55. Sử dụng Axios để tương tác với API: https://youtu.be/UVk1Zack9Mo
+
+Chương 9: API project
+56. Project Fast HTTP: https://youtu.be/2ghCUPoVqPw
+57. Project Github Search: https://youtu.be/g1WBTz1ZPw8
+
+Chương 10: Tính năng mới của ES5, ES6
+58. Iterator và Generator: https://youtu.be/wNZHS9kDsyc
+59. Mini Tinder - Iterator Mini Project: https://youtu.be/Xo_BjhZYPAU
+60. Symbol: https://youtu.be/jJ4Z3HWUVEk
+61. Destructuring, Rest Parameters, and Spread Syntax: https://youtu.be/d88U6tqdbWA
+62. ES6 Map: https://youtu.be/dYY1Cbzzw9c
+63. ES6 Set: https://youtu.be/-1TAFi9RRps
+
+Chương 11: Pattern là gì
+64. Pattern là gì: https://youtu.be/JUrmP-fwZSc
+65. Module và Revealing Module Pattern: https://youtu.be/BFg0Mwe8eVE
+66. Singleton pattern: https://youtu.be/uj7YeW-cH74
+67. ES6 Module: https://youtu.be/g-3YVbPAI_o
+68. Factory Pattern: https://youtu.be/TCRkw_fhMXQ
+69. Decorator pattern: https://youtu.be/Ozz2s2WFhHk
+70. Observer pattern: https://youtu.be/zVOEteY17jc
+
+Chương 12: Javascript Pattern project 
+71. Project Money Lover: https://youtu.be/ynKEpQ0bZfA
